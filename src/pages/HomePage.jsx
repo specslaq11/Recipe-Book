@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import SearchBar from '../components/SearchBar/SearchBar';
-import FilterBar from '../components/FilterBar/FilterBar';
+import SearchBar from '../Components/SearchBar/SearchBar';
+import FilterBar from '../Components/FilterBar/FilterBar';
 import AreaFilter from '../components/AreaFilter/AreaFilter';
 import RecipeList from '../components/RecipeList/RecipeList';
 import RecipeDetail from '../components/RecipeDetail/RecipeDetail';
