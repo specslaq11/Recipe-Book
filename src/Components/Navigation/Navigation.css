@@ -1,0 +1,24 @@
+.main-nav {
+  background: white;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #666;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  background: #f0f0f0;
+}
+
+.nav-link.active {
+  background: #007AFF;
+  color: white;
+} 

@@ -1,0 +1,51 @@
+.area-filter {
+  position: relative;
+  margin-bottom: 1rem;
+  min-width: 200px !important;
+}
+
+.area-menu {
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.area-option {
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.area-option:hover {
+  background: #f4f4f4;
+}
+
+.area-option.selected {
+  background: #007AFF;
+  color: white;
+}
+
+.area-option.focused {
+  outline: 2px solid #007AFF;
+  outline-offset: -2px;
+}
+
+/* Add disabled state styling */
+.area-menu[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.area-menu[aria-disabled="true"] .area-option {
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .area-filter {
+    width: 100% !important;
+  }
+} 

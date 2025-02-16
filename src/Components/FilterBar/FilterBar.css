@@ -1,0 +1,65 @@
+.filter-bar {
+  position: relative;
+  margin-bottom: 1rem;
+  min-width: 200px !important;
+}
+
+.filter-menu {
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.filter-option {
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-option:hover {
+  background: #f4f4f4;
+}
+
+.filter-option.selected {
+  background: #007AFF;
+  color: white;
+}
+
+.filter-option.focused {
+  outline: 2px solid #007AFF;
+  outline-offset: -2px;
+}
+
+/* Add disabled state styling */
+.filter-menu[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.filter-menu[aria-disabled="true"] .filter-option {
+  pointer-events: none;
+}
+
+.filter-select {
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: white;
+  min-width: 150px;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #007AFF;
+}
+
+@media (max-width: 768px) {
+  .filter-bar {
+    width: 100% !important;
+  }
+} 

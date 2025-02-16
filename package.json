@@ -1,0 +1,47 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@react-aria/button": "^3.11.1",
+    "@react-aria/dialog": "^3.5.21",
+    "@react-aria/focus": "^3.19.1",
+    "@react-aria/interactions": "^3.23.0",
+    "@react-aria/listbox": "^3.14.0",
+    "@react-aria/overlays": "^3.25.0",
+    "@react-aria/searchfield": "^3.8.0",
+    "@react-aria/select": "^3.15.1",
+    "@react-aria/textfield": "^3.16.0",
+    "@react-stately/list": "^3.11.2",
+    "@react-stately/select": "^3.6.10",
+    "react": "^19.0.0",
+    "react-aria": "^3.37.0",
+    "react-aria-components": "^1.6.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-stately": "^3.35.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "vite": "^6.1.0"
+  }
+}
