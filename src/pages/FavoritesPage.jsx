@@ -1,5 +1,5 @@
-import RecipeList from '../components/RecipeList/RecipeList';
-import RecipeDetail from '../components/RecipeDetail/RecipeDetail';
+import RecipeList from '../Components/RecipeList/RecipeList';
+import RecipeDetail from '../Components/RecipeDetail/RecipeDetail';
 import { useState } from 'react';
 
 export default function FavoritesPage({ favorites, onFavoriteToggle }) {

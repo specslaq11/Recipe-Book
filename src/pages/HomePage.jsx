@@ -4,7 +4,7 @@ import FilterBar from '../Components/FilterBar/FilterBar';
 import AreaFilter from '../Components/AreaFilter/AreaFilter';
 import RecipeList from '../Components/RecipeList/RecipeList';
 import RecipeDetail from '../Components/RecipeDetail/RecipeDetail';
-import LoadMore from '../components/LoadMore/LoadMore';
+import LoadMore from '../Components/LoadMore/LoadMore';
 import Pagination from '../Components/Pagination/Pagination';
 
 export default function HomePage({ 
