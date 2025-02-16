@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import SearchBar from '../Components/SearchBar/SearchBar';
 import FilterBar from '../Components/FilterBar/FilterBar';
-import AreaFilter from '../components/AreaFilter/AreaFilter';
-import RecipeList from '../components/RecipeList/RecipeList';
-import RecipeDetail from '../components/RecipeDetail/RecipeDetail';
+import AreaFilter from '../Components/AreaFilter/AreaFilter';
+import RecipeList from '../Components/RecipeList/RecipeList';
+import RecipeDetail from '../Components/RecipeDetail/RecipeDetail';
 import LoadMore from '../components/LoadMore/LoadMore';
-import Pagination from '../components/Pagination/Pagination';
+import Pagination from '../Components/Pagination/Pagination';
 
 export default function HomePage({ 
   recipes, 

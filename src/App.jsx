@@ -1,14 +1,14 @@
 import { useEffect, useState, useCallback } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { OverlayProvider } from '@react-aria/overlays'
-import Navigation from './components/Navigation/Navigation'
+import { ThemeProvider, createTheme } from '@mui/material/styles'
+import { useDebounce } from './hooks/useDebounce'
+import { useRecipeApi } from './hooks/useRecipeApi'
+import Navigation from './Components/Navigation/Navigation'
 import HomePage from './pages/HomePage'
 import FavoritesPage from './pages/FavoritesPage'
-import { useDebounce } from './hooks/useDebounce'
+import Pagination from './Components/Pagination/Pagination'
 import './App.css'
-import { ThemeProvider, createTheme } from '@mui/material/styles'
-import Pagination from './components/Pagination/Pagination'
-import { useRecipeApi } from './hooks/useRecipeApi'
 
 const theme = createTheme({
   palette: {
